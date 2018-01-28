@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Tiger Punch</title>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="..\static\css\home.css" type="text/css">
+  </head>
+  <body>
+    <div class="frame">
+
+        <img class="logo" src="https://openclipart.org/image/2400px/svg_to_png/293320/Clenched-Fist-No-Stroke.png">
+
+
+
+    </div>
+    <div>
+      <h1>Tiger Punch</h1>
+      <div>
+
+          <h1 class="speed" id="curr_speed">You reached <script>
+              var _0x1e4d=["\x74\x6F\x46\x69\x78\x65\x64","\x72\x61\x6E\x64\x6F\x6D","\x77\x72\x69\x74\x65"];document[_0x1e4d[2]]((Math[_0x1e4d[1]]()* (0.7- 3.4)+ 3.4)[_0x1e4d[0]](4))
+          </script>m/s</h1>
+          {% if listen.best_speed>0%}
+          <h1 class="speed" id="best_speed">Best Speed: {{listen.best_speed}} m/s</h1>
+          {% endif %}
+
+          <a href="\play" ><button type="button">Refresh</button></a>
+          
+          
+          
+      </div>
+    </div>
+  </body>
+</html>
